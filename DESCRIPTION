@@ -1,15 +1,14 @@
 Package: pmdutils
-Title: What the Package Does (One Line, Title Case)
+Title: Misc util for me
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Per",
+           family = "Møldrup-Dalum",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "dalum@me.cvom",
+    )
+Description: Not known yet.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
