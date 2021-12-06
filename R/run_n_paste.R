@@ -6,5 +6,11 @@
 #' @examples
 #' use Addins menu
 run_n_pasteAddin <- function() {
-  rstudioapi::insertText(" %pmd% ")
+  context <- rstudioapi::getActiveDocumentContext()
+
+  expr_object <- eval(parse(text = context$selection[[1]]$text))
+  rstudioapi::insertText(
+    location = context$selection[[1]]$range$end,
+    paste0("\n# ",expr_object)
+  )
 }
