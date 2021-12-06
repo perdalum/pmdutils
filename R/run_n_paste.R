@@ -1,4 +1,4 @@
-#' Insert text in the editor
+#' Insert result of code run as comments in the editor
 #'
 #' @return
 #' @export
