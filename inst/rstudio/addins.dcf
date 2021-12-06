@@ -1,4 +1,4 @@
-Name: Insert %pmd%
-Description: Inserts `%pmd%` at the cursor position.
+Name: Run code and insert result
+Description: Runs the selected code and inserts the result as comments below
 Binding: run_n_pasteAddin
 Interactive: false
