@@ -15,3 +15,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
     rstudioapi
+URL: https://github.com/perdalum/pmdutils
+BugReports: https://github.com/perdalum/pmdutils/issues
